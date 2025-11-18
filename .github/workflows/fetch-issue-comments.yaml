@@ -27,7 +27,7 @@ on:
       commit_to_repo:
         description: "Commit the JSON to the repo (workflow_dispatch only)"
         required: false
-        default: "True"
+        default: "true"
       notes:
         description: "Additional Notes (stored in metadata only)"
         required: false
